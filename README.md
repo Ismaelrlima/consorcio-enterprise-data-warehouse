@@ -165,7 +165,7 @@ integrados a soluções externas de observabilidade.
 
 ### 1. Clonar o repositório
 
-git clone https://github.com/seu-usuario/consorcio-pipeline.git\
+git clone https://github.com/Ismaelrlima/consorcio-enterprise-data-warehouse.git
 cd consorcio-pipeline
 
 ### 2. Criar arquivo .env
