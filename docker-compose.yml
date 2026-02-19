@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  dw_postgres:
+    image: postgres:15
+    container_name: dw_consorcio
+    restart: always
+    environment:
+      POSTGRES_USER: dw_user
+      POSTGRES_PASSWORD: dw_password
+      POSTGRES_DB: dw_consorcio
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata_dw:/var/lib/postgresql/data
+
+volumes:
+  pgdata_dw:
